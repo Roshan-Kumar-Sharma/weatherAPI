@@ -1,0 +1,13 @@
+GET http://localhost:2000/
+
+###
+POST http://localhost:2000/getWeather
+Content-Type: application/json
+
+{
+    "cities": [
+        "toronto",
+        "jdkjk",
+        "japan"
+    ]
+}
